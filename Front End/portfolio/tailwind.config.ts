@@ -16,6 +16,13 @@ const config: Config = {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
+      colors: {
+        'dark-blue': '#0D1B2A',
+        'blue-gray': '#1B263B',
+        'coral': '#FF6F61',
+        'light-gray': '#F0F4F8',
+        'dark-gray': '#333333',
+      },
     },
   },
   plugins: [],

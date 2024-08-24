@@ -1,6 +1,6 @@
 import React from "react";
 import TarjetaProyectosProps from "./types";
-import Boton from "../BotonTarjetas/Boton";
+import Boton from "../../BotonTarjetas/Boton";
 
 const Tarjeta: React.FC<TarjetaProyectosProps> = ({ imagen, logo, texto }) => {
   return (

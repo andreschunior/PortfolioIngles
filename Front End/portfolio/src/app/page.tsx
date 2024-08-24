@@ -5,30 +5,32 @@ import { Subtexto } from "./components/textoSecundario/TextoSecundario";
 import ProfileImagen from "../../public/profile photo andres.png";
 import Tarjeta from "./components/landingpage/skills/TarjetasSkills";
 import { FaReact } from "react-icons/fa";
-import TarjetasdeProyectos from "./components/proyectos/Tarjetas";
+import TarjetasdeProyectos from "./components/landingpage/proyectos/Tarjetas";
 import Boton from "./components/BotonTarjetas/Boton";
 import BotonConIcono from "./components/BotonGeneral/BotonGeneral";
 import { FaGithub } from "react-icons/fa";
-import { Testimonios } from "./components/Testimonios/Testimonios";
+import { Testimonios } from "./components/landingpage/Testimonios/Testimonios";
+import { ContactoContenedor } from "./components/landingpage/Contactarme/Contacto";
+import { Footer } from "./components/landingpage/footer/Footer";
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-screen bg-gray-900 space-y-2">
-        <Titulo1 title="Desarrollador Full Stack" />
-        <Subtexto Subtexto="Transformando Ideas en Realidad Digital" />
+      <div className="flex flex-col justify-center items-center h-screen bg-light-gray space-y-2">
+        <Titulo1 title="Diseñador, Desarrollador Full Stack" />
+        <Subtexto Subtexto="Transformando Ideas en Realidades" />
         <br />
         <br />
         <br />
         <img
           src={ProfileImagen.src}
           alt="Descripción de la imagen"
-          className="w-1/4 object-cover"
+          className="w-1/6 object-cover"
         />
       </div>
 
       <div className="h-screen bg-white">
-        <div className="h-3/4 bg-blue-500 flex flex-col justify-center items-center">
+        <div className="h-3/4 bg-blue-gray flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold font-roboto text-white mt-0">
             Hola soy Jose. Encantado de conocerte
           </h1>
@@ -55,6 +57,7 @@ export default function Home() {
               "Lightroom",
               "Illustrator",
             ]}
+            titutloTecnologias="Herramientas de diseño"
           />
           <Tarjeta
             icono={<FaReact />} // Ejemplo de icono usando React Icons
@@ -70,6 +73,7 @@ export default function Home() {
               "CSS",
               "JavaScript",
             ]}
+            titutloTecnologias="Tecnologias Front End"
           />
           <Tarjeta
             icono={<FaReact />} // Ejemplo de icono usando React Icons
@@ -85,6 +89,7 @@ export default function Home() {
               "Cloudinary",
               "AJAX",
             ]}
+            titutloTecnologias="Tecnologias Back End"
           />
         </div>
         <br />
@@ -103,6 +108,8 @@ export default function Home() {
           />
         </div>
         <Testimonios />
+        <ContactoContenedor />
+        <Footer />
       </div>
     </>
   );

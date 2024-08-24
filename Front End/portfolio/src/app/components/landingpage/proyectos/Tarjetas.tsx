@@ -1,9 +1,9 @@
 import React from "react";
 
 import { FaReact, FaNode, FaJs } from "react-icons/fa"; // Asegúrate de importar los íconos necesarios
-import imagen1 from "../../../../public/proyecto1.jpeg";
-import imagen2 from "../../../../public/proyecto2.jpeg";
-import imagen3 from "../../../../public/proyecto3.jpeg";
+import imagen1 from "../../../../../public/proyecto1.jpeg";
+import imagen2 from "../../../../../public/proyecto2.jpeg";
+import imagen3 from "../../../../../public/proyecto3.jpeg";
 import Tarjeta from "./TarjetasProyectos";
 
 const TarjetasdeProyectos: React.FC = () => {

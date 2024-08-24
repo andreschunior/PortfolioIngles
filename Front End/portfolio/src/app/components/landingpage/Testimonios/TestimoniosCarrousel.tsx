@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Importa el CSS de Swiper adecuado
 import TestimonioCard from "./TestimoniosCard";
-import photo1 from "../../../../public/kevinProfilePhoto.jpeg";
+import photo1 from "../../../../../public/kevinProfilePhoto.jpeg";
 // Aquí defines tus testimonios
 const testimonios = [
   {

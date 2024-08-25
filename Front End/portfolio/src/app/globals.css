@@ -31,10 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+/* Ejemplo de estilo para la paginación */
 .swiper-pagination-bullet {
-  background-color: #999; /* Color de los puntos inactivos */
+  background: #98FF98; /* Cambia el color de los puntos */
+  width: 12px; /* Tamaño del punto */
+  height: 12px; /* Tamaño del punto */
+  opacity: 1; /* Opacidad del punto */
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #3b82f6; /* Color del punto activo */
+  background: #98FF98; /* Color del punto activo */
 }

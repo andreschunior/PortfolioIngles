@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-export interface TarjetaProps {
+export default  interface TarjetaProyectosProps {
   imagen: string;
   logo?: ReactNode;
   texto?: string;

@@ -22,6 +22,8 @@ const config: Config = {
         'coral': '#FF6F61',
         'light-gray': '#F0F4F8',
         'dark-gray': '#333333',
+        'mint-green': '#2DD6A4',
+        'light-sky-blue': '#A2C2E1'
       },
     },
   },

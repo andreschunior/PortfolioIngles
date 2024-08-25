@@ -13,7 +13,11 @@ export const ContactoContenedor: React.FC = () => {
           productos o nuevas oportunidades profesionales.
         </p>
         <div className="mt-10">
-          <BotonConIcono texto="Conectarme" />
+          <a
+            href="/contacto" // Cambia el enlace según tus necesidades
+          >
+            <BotonConIcono texto="Contactme" />
+          </a>
         </div>
       </div>
     </>

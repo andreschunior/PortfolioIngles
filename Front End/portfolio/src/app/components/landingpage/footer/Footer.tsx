@@ -9,15 +9,22 @@ export const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white py-8 min-h-[200px] flex flex-col justify-between">
       <div className="container mx-auto text-center mt-10">
         {/* Logo */}
-        <div className="mb-4">
-          <Image
-            src={logo}
-            alt="Logo"
-            width={80}
-            height={80}
-            className="mx-auto"
-          />
+        <div className="flex justify-center">
+          <div className="mb-4 w-20">
+            <a
+              href="/" // Cambia el enlace según tus necesidades
+            >
+              <Image
+                src={logo}
+                alt="Logo"
+                width={80}
+                height={80}
+                className="mx-auto"
+              />
+            </a>
+          </div>
         </div>
+
         {/* Eslogan */}
         <p className="text-lg font-semibold mb-4">
           Transformemos Ideas en Realidades.

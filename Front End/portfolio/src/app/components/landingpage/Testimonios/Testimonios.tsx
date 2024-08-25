@@ -4,10 +4,8 @@ import TestimoniosCarousel from "./TestimoniosCarrousel";
 export const Testimonios: React.FC = () => {
   return (
     <>
-      <div>
-        {/* Otros componentes */}
+      <div className=" flex  justify-center items-center bg-light-gray mt-5">
         <TestimoniosCarousel />
-        {/* Otros componentes */}
       </div>
     </>
   );

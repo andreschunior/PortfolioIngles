@@ -3,5 +3,6 @@ export default interface TestimonioCardProps {
     texto: string;
     nombre: string;
     lugar: string;
+    link?:string;
   }
   

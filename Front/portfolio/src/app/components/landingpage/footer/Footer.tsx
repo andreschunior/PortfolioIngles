@@ -54,7 +54,7 @@ export const Footer: React.FC = () => {
               className="hover:text-gray-400"
             />
           </a>
-          <a href="andres23540575@gmail.com">
+          <a href="mailto:andres23540575@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               size="2x"

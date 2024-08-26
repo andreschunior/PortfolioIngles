@@ -18,25 +18,18 @@ const Tarjeta: React.FC<TarjetaProps> = ({
       }`}
     >
       <div className="flex justify-center items-center mb-4">
-        <div className="text-4xl transition-transform duration-300 hover:rotate-12">
-          {icono}
-        </div>
+        <div className="text-4xl ">{icono}</div>
       </div>
-      <h2 className="text-2xl font-bold text-center mb-4 text-dark-blue transition-colors duration-300 hover:text-mint-green">
+      <h2 className="text-2xl font-bold text-center mb-4 text-dark-blue transition-colors duration-300 hover:text-mint-green !important">
         {titulo}
       </h2>
-      <p className="text-center text-md mb-6 transition-opacity duration-300 hover:opacity-75">
-        {texto}
-      </p>
+      <p className="text-center text-md mb-6 ">{texto}</p>
       <h2 className="text-xl font-bold text-center mb-4 text-mint-green">
         {titutloTecnologias}
       </h2>
       <ul className="list-none text-center space-y-2">
         {lista.map((item, index) => (
-          <li
-            key={index}
-            className="text-gray-700 transition-colors duration-300 hover:text-dark-blue"
-          >
+          <li key={index} className=" hover:text-dark-blue">
             {item}
           </li>
         ))}

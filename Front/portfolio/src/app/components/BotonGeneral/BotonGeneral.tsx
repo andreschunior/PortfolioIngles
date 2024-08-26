@@ -16,7 +16,7 @@ const BotonConIcono: React.FC<BotonConIconoProps> = ({
         backgroundColor: "transparent",
       }}
     >
-      {Icono && <Icono className="mr-2 text-lg" />}
+      {Icono && <Icono className="mr-2 text-lg text-black !important" />}
       {texto}
     </button>
   );

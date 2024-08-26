@@ -55,10 +55,10 @@ const ContactForm: React.FC = () => {
     setIsSending(true);
     emailjs
       .send(
-        "service_n82ofd6", // Reemplaza con tu Service ID
-        "template_y5agefq", // Reemplaza con tu Template ID
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         formData,
-        "tMXbo_iq76AF6yEbp" // Reemplaza con tu Public Key
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(() => {
         Swal.fire({
@@ -128,7 +128,7 @@ const ContactForm: React.FC = () => {
             minLength={10}
             maxLength={500}
             rows={6}
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg "
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg"
           />
         </div>
         <div className="flex justify-center">

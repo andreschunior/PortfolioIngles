@@ -28,19 +28,6 @@ export default function Home() {
         >
           <Tarjeta
             icono={<FaReact />}
-            titulo="Diseño Gráfico"
-            texto="Soy diseñador gráfico con habilidades en fotografía, edición de imágenes, vectorización, y diseño 2D. Transformo ideas en visuales impactantes con creatividad y precisión técnica."
-            lista={[
-              "Affinity Designer",
-              "Affinity Photo",
-              "Photoshop",
-              "Lightroom",
-              "Illustrator",
-            ]}
-            titutloTecnologias="Herramientas de diseño"
-          />
-          <Tarjeta
-            icono={<FaReact />}
             titulo="Front End"
             texto="Desarrollador front-end con experiencia en Next.js, React, Redux, Tailwind CSS, Bootstrap, HTML, CSS y JavaScript. Transformo ideas en interfaces interactivas y atractivas con un enfoque en la eficiencia y el diseño responsivo."
             lista={[
@@ -70,6 +57,19 @@ export default function Home() {
               "AJAX",
             ]}
             titutloTecnologias="Tecnologias Back End"
+          />
+          <Tarjeta
+            icono={<FaReact />}
+            titulo="Diseño Gráfico"
+            texto="Soy diseñador gráfico con habilidades en fotografía, edición de imágenes, vectorización, y diseño 2D. Transformo ideas en visuales impactantes con creatividad y precisión técnica."
+            lista={[
+              "Affinity Designer",
+              "Affinity Photo",
+              "Photoshop",
+              "Lightroom",
+              "Illustrator",
+            ]}
+            titutloTecnologias="Herramientas de diseño"
           />
         </div>
 

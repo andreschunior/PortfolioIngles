@@ -21,6 +21,10 @@ export default function Home() {
     <>
       <Presentacion />
 
+      <div className="bg-mint-green max-h-4">
+        <br />
+      </div>
+
       <div className="h-screen bg-white">
         <AboutMe />
         <div

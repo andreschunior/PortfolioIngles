@@ -15,18 +15,22 @@ export const Presentacion: React.FC = () => {
     >
       <Titulo1
         title={`Diseñador, Desarrollador Full Stack ${isMobile ? "" : ""}`}
-        className={`text-center ${isMobile ? "text-2xl mt-0" : "text-4xl"}`}
+        className={`text-center  ${
+          isMobile ? "text-2xl mt-0 text-center" : "text-4xl text-center"
+        }`}
       />
       <Subtexto
         Subtexto={`Transformando Ideas en Realidades ${isMobile ? "" : ""}`}
         className={`text-center ${isMobile ? "text-md" : "text-lg"}`}
       />
+      <br />
+      <br />
       <img
         src={ProfileImagen.src}
         alt="Descripción de la imagen"
         className={`${
-          isMobile ? "w-1/2" : "w-1/6"
-        } object-cover transition-transform duration-300`}
+          isMobile ? "w-2/3 " : "w-1/6"
+        } object-cover transition-transform duration-300 `}
       />
     </div>
   );

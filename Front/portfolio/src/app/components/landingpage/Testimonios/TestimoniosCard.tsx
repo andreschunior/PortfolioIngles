@@ -20,7 +20,7 @@ const TestimonioCard: React.FC<TestimonioCardProps> = ({
       <div className="font-semibold">{nombre}</div>
       <div className="text-gray-500 mb-5">{lugar}</div>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <BotonConIcono texto="mas informacion aqui" />
+        <BotonConIcono texto="Más información aqui" />
       </a>
     </div>
   );

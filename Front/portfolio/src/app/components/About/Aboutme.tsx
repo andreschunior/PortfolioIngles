@@ -15,7 +15,14 @@ export const AboutMe: React.FC = () => {
           isMobile ? "text-2xl" : "text-4xl"
         }`}
       >
-        Hola soy Jose. Encantado de conocerte
+        ¡Hola!
+      </h1>
+      <h1
+        className={`text-4xl font-bold font-roboto text-white mt-0 ${
+          isMobile ? "text-2xl" : "text-4xl"
+        }`}
+      >
+        Soy José, encantado de conocerte
       </h1>
       <p
         className={`text-lg font-bold font-roboto text-white mt-9 ${

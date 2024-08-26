@@ -16,7 +16,7 @@ export const ContactoContenedor: React.FC = () => {
           <a
             href="/contacto" // Cambia el enlace según tus necesidades
           >
-            <BotonConIcono texto="Contactame" />
+            <BotonConIcono texto="Contáctame" />
           </a>
         </div>
       </div>

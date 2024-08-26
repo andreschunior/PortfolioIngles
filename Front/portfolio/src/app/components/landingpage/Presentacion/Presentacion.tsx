@@ -15,7 +15,7 @@ export const Presentacion: React.FC = () => {
     >
       <Titulo1
         title={`Diseñador, Desarrollador Full Stack ${isMobile ? "" : ""}`}
-        className={`text-center ${isMobile ? "text-2xl" : "text-4xl"}`}
+        className={`text-center ${isMobile ? "text-2xl mt-0" : "text-4xl"}`}
       />
       <Subtexto
         Subtexto={`Transformando Ideas en Realidades ${isMobile ? "" : ""}`}

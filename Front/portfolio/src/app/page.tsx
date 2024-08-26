@@ -12,7 +12,6 @@ import { Footer } from "./components/landingpage/footer/Footer";
 import useIsMobile from "./hook/hookmobile";
 import { AboutMe } from "./components/About/Aboutme";
 import { Presentacion } from "./components/landingpage/Presentacion/Presentacion";
-import ContactForm from "./components/FormularioContacto/FormularioContacto";
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -86,7 +85,7 @@ export default function Home() {
         <div className="flex justify-center mt-10 ">
           <BotonConIcono
             texto="Ver más en GitHub"
-            onClick={() => window.open("https://github.com", "_blank")}
+            onClick={() => window.open("https://github.com/andreschunior")}
             icono={FaGithub}
           />
         </div>

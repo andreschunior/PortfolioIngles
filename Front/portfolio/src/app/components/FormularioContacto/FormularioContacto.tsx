@@ -128,7 +128,7 @@ const ContactForm: React.FC = () => {
             minLength={10}
             maxLength={500}
             rows={6}
-            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg"
+            className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg text-black !important"
           />
         </div>
         <div className="flex justify-center">

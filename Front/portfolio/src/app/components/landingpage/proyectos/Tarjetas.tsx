@@ -8,7 +8,7 @@ import Tarjeta from "./TarjetasProyectos";
 
 const TarjetasdeProyectos: React.FC = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 bg-gray-200">
       <div className="flex flex-wrap  justify-center gap-20">
         <Tarjeta
           imagen={imagen1.src}

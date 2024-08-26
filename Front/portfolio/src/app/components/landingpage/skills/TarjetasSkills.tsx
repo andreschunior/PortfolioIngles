@@ -23,13 +23,15 @@ const Tarjeta: React.FC<TarjetaProps> = ({
       <h2 className="text-2xl font-bold text-center mb-4 text-dark-blue transition-colors duration-300 hover:text-mint-green !important">
         {titulo}
       </h2>
-      <p className="text-center text-md mb-6 ">{texto}</p>
+      <p className="text-center text-md mb-6 text-dark-blue !important ">
+        {texto}
+      </p>
       <h2 className="text-xl font-bold text-center mb-4 text-mint-green">
         {titutloTecnologias}
       </h2>
       <ul className="list-none text-center space-y-2">
         {lista.map((item, index) => (
-          <li key={index} className=" hover:text-dark-blue">
+          <li key={index} className=" text-dark-blue !important">
             {item}
           </li>
         ))}

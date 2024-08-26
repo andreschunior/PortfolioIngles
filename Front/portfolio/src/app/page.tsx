@@ -72,22 +72,21 @@ export default function Home() {
             titutloTecnologias="Tecnologias Back End"
           />
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="flex justify-center mt-0 mb-10 ">
-          <h1 className="text-4xl font-bold  bg-clip-text text-mint-green font-roboto mb-6)">
+
+        <div className="flex justify-center  mb-10 bg-gray-200 mt-10  ">
+          <h1 className="text-4xl font-bold  bg-clip-text text-mint-green font-roboto mb-6">
             Mis Proyectos
           </h1>
         </div>
         <TarjetasdeProyectos />
-        <div className="flex justify-center mt-10 ">
-          <BotonConIcono
-            texto="Ver más en GitHub"
-            onClick={() => window.open("https://github.com/andreschunior")}
-            icono={FaGithub}
-          />
+        <div className="bg-gray-200 ">
+          <div className="flex justify-center mt-10 ">
+            <BotonConIcono
+              texto="Ver más en GitHub"
+              onClick={() => window.open("https://github.com/andreschunior")}
+              icono={FaGithub}
+            />
+          </div>
         </div>
         <Testimonios />
         <ContactoContenedor />

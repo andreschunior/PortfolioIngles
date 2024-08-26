@@ -1,10 +1,11 @@
 import React from "react";
 
 import { FaReact, FaNode, FaJs } from "react-icons/fa"; // Asegúrate de importar los íconos necesarios
-import imagen1 from "../../../../../public/proyecto1.jpeg";
-import imagen2 from "../../../../../public/proyecto2.jpeg";
-import imagen3 from "../../../../../public/proyecto3.jpeg";
+import imagen1 from "../../../../../public/ultranet.png";
+import imagen2 from "../../../../../public/astraResidential.png";
+import imagen3 from "../../../../../public/LuckyThor.png";
 import Tarjeta from "./TarjetasProyectos";
+import logo from "../../../../../public/LogoJA.png";
 
 const TarjetasdeProyectos: React.FC = () => {
   return (
@@ -12,33 +13,21 @@ const TarjetasdeProyectos: React.FC = () => {
       <div className="flex flex-wrap  justify-center gap-20">
         <Tarjeta
           imagen={imagen1.src}
-          logo={<FaReact />} // Puedes usar un ícono o texto aquí
-          texto="mi primer proyecto donde aprendi mis primeros pasos en la programacion"
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
+          texto="Intranet servicios de ISP "
+          url="https://frontend-swart-sigma.vercel.app"
         />
         <Tarjeta
           imagen={imagen2.src}
-          logo={<FaNode />} // Puedes usar un ícono o texto aquí
-          texto="Proyecto 2"
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
+          texto="Astra Residentialn inmobiliaria ubicada en Texas"
+          url="https://www.astraresidential.com"
         />
         <Tarjeta
           imagen={imagen3.src}
-          logo={<FaJs />} // Puedes usar un ícono o texto aquí
-          texto="Proyecto 3"
-        />
-        <Tarjeta
-          imagen={imagen1.src}
-          logo={<FaReact />} // Puedes usar un ícono o texto aquí
-          texto="Proyecto 4"
-        />
-        <Tarjeta
-          imagen={imagen1.src}
-          logo={<FaReact />} // Puedes usar un ícono o texto aquí
-          texto="Proyecto 5"
-        />
-        <Tarjeta
-          imagen={imagen1.src}
-          logo={<FaReact />} // Puedes usar un ícono o texto aquí
-          texto="Proyecto 6"
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
+          texto="LuckyThor Marca de Hidromiel"
+          url="https://andreschunior.github.io/LuckyThorWebsite/HomePage/index.html"
         />
       </div>
     </div>

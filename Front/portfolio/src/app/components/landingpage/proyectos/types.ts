@@ -4,6 +4,7 @@ import { ReactNode } from 'react';
   imagen: string;
   logo?: ReactNode;
   texto?: string;
+  url: string;
 }
 
 export default TarjetaProyectosProps

@@ -2,7 +2,7 @@
 import React from "react";
 
 import Tarjeta from "./components/landingpage/skills/TarjetasSkills";
-import { FaReact } from "react-icons/fa";
+import { FaNodeJs, FaPencilRuler, FaReact } from "react-icons/fa";
 import TarjetasdeProyectos from "./components/landingpage/proyectos/Tarjetas";
 import BotonConIcono from "./components/BotonGeneral/BotonGeneral";
 import { FaGithub } from "react-icons/fa";
@@ -12,6 +12,7 @@ import { Footer } from "./components/landingpage/footer/Footer";
 import useIsMobile from "./hook/hookmobile";
 import { AboutMe } from "./components/About/Aboutme";
 import { Presentacion } from "./components/landingpage/Presentacion/Presentacion";
+import elementos from "../../public/elementosDesarrolloWeb.png";
 
 export default function Home() {
   const isMobile = useIsMobile();
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <>
       <Presentacion />
+
       <div className="h-screen bg-white">
         <AboutMe />
         <div
@@ -43,7 +45,7 @@ export default function Home() {
             titutloTecnologias="Tecnologias Front End"
           />
           <Tarjeta
-            icono={<FaReact />}
+            icono={<FaNodeJs />}
             titulo="Back End"
             texto="Desarrollador back-end con experiencia en PostgreSQL, MongoDB, Mongoose, TypeORM, Node.js, Express, Cloudinary y AJAX. Desarrollo soluciones robustas y escalables, gestionando bases de datos, APIs y servicios en la nube con eficiencia."
             lista={[
@@ -59,7 +61,7 @@ export default function Home() {
             titutloTecnologias="Tecnologias Back End"
           />
           <Tarjeta
-            icono={<FaReact />}
+            icono={<FaPencilRuler />}
             titulo="Diseño Gráfico"
             texto="Soy diseñador gráfico con habilidades en fotografía, edición de imágenes, vectorización, y diseño 2D. Transformo ideas en visuales impactantes con creatividad y precisión técnica."
             lista={[
@@ -75,7 +77,7 @@ export default function Home() {
 
         <div className="flex justify-center  mb-10 bg-gray-200 mt-10  ">
           <h1 className="text-4xl font-bold  bg-clip-text text-mint-green font-roboto mb-6">
-            Mis Proyectos
+            Proyectos
           </h1>
         </div>
         <TarjetasdeProyectos />

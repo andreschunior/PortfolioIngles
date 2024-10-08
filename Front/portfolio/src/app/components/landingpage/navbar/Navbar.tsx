@@ -50,7 +50,7 @@ export const Navbar: React.FC = () => {
                 onClick={() => scrollToSection("about-me")}
                 className="block hover:underline cursor-pointer"
               >
-                About Me
+                Sobre Mi
               </a>
               <a
                 onClick={() => scrollToSection("habilidades")}

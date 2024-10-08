@@ -4,6 +4,7 @@ import { FaReact, FaNode, FaJs } from "react-icons/fa"; // Asegúrate de importa
 import imagen1 from "../../../../../public/ultranet.png";
 import imagen2 from "../../../../../public/astraResidential.png";
 import imagen3 from "../../../../../public/LuckyThor.png";
+import imagen4 from "../../../../../public/bannerpublicidadpalesvertical.png";
 import Tarjeta from "./TarjetasProyectos";
 import logo from "../../../../../public/LogoJA.png";
 
@@ -22,6 +23,12 @@ const TarjetasdeProyectos: React.FC = () => {
           logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
           texto="Astra Residentialn inmobiliaria ubicada en Texas"
           url="https://www.astraresidential.com"
+        />
+        <Tarjeta
+          imagen={imagen4.src}
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
+          texto="Dr Pales HealthCare"
+          url="https://www.drpaleshealthcare.com"
         />
         <Tarjeta
           imagen={imagen3.src}

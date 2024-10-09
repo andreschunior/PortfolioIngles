@@ -16,7 +16,7 @@ const TarjetasdeProyectos: React.FC = () => {
           imagen={imagen1.src}
           logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
           texto="Intranet servicios de ISP "
-          url="https://frontend-swart-sigma.vercel.app"
+          url="https://demo-ultranet.vercel.app"
         />
         <Tarjeta
           imagen={imagen2.src}

@@ -6,17 +6,17 @@ export const ContactoContenedor: React.FC = () => {
     <>
       <div className="flex flex-col items-center justify-center p-6 bg-white shadow-lg max-w-full mx-auto">
         <h2 className="text-2xl font-bold text-center mb-2 text-black !important">
-          ¿Listo para Crear Juntos? ¡Conéctate Conmigo!
+          Ready to Create Together? Connect with Me!
         </h2>
         <p className="text-gray-600 text-center">
-          Siempre estoy disponible para hablar sobre proyectos de diseño de
-          productos o nuevas oportunidades profesionales.
+          I am always available to talk about product design projects or new
+          professional opportunities.
         </p>
         <div className="mt-10">
           <a
-            href="/contacto" // Cambia el enlace según tus necesidades
+            href="/contact" // Change the link according to your needs
           >
-            <BotonConIcono texto="Contáctame" />
+            <BotonConIcono texto="Contact Me" />
           </a>
         </div>
       </div>

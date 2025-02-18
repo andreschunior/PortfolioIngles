@@ -21,7 +21,7 @@ const testimonios = [
   {
     foto: photo2.src,
     texto:
-      "José Andrés trabajó conmigo durante varios meses y demostró ser muy creativo, responsable y dedicado con todos los proyectos que desarrollamos para mi canal de Youtube. Estoy muy contento con su trabajo, de hecho mi video más popular lo hizo él. Sin duda recomiendo 100% a José Andrés.",
+      "José Andrés worked with me for several months and proved to be very creative, responsible, and dedicated with all the projects we developed for my YouTube channel. I am very happy with his work, in fact, my most popular video was made by him. I definitely recommend José Andrés 100%.",
     nombre: "Gabriel Lopez",
     lugar: "JakepokerVegas",
     link: "https://www.instagram.com/jakepokervegas?igsh=ZXV4OGx0NDFsNXFi",

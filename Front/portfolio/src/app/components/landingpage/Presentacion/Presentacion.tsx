@@ -42,7 +42,7 @@ export const Presentacion: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <Titulo1
-            title={`Desarrollador Full Stack ${isMobile ? "" : ""}`}
+            title={`Full Stack Developer ${isMobile ? "" : ""}`}
             className={`text-center ${isMobile ? "text-2xl mt-0" : "text-4xl"}`}
           />
         </motion.div>
@@ -52,7 +52,7 @@ export const Presentacion: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <Subtexto
-            Subtexto={`Transformando Ideas en Realidades ${isMobile ? "" : ""}`}
+            Subtexto={`Transforming Ideas into Realities ${isMobile ? "" : ""}`}
             className={`text-center ${isMobile ? "text-md" : "text-lg"}`}
           />
         </motion.div>
@@ -60,7 +60,7 @@ export const Presentacion: React.FC = () => {
         <br />
         <img
           src={ProfileImagen.src}
-          alt="Descripción de la imagen"
+          alt="Image Description"
           className={`${
             isMobile ? "w-3/5" : "w-1/4"
           } object-cover transition-transform duration-300`}

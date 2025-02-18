@@ -14,26 +14,26 @@ const TarjetasdeProyectos: React.FC = () => {
       <div className="flex flex-wrap  justify-center gap-20">
         <Tarjeta
           imagen={imagen1.src}
-          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
-          texto="Intranet servicios de ISP "
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // You can use an icon or text here
+          texto="Intranet ISP services"
           url="https://demo-ultranet.vercel.app"
         />
         <Tarjeta
           imagen={imagen2.src}
-          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
-          texto="Astra Residentialn inmobiliaria ubicada en Texas"
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // You can use an icon or text here
+          texto="Astra Residential real estate located in Texas"
           url="https://www.astraresidential.com"
         />
         <Tarjeta
           imagen={imagen4.src}
-          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // You can use an icon or text here
           texto="Dr Pales HealthCare"
           url="https://www.drpaleshealthcare.com"
         />
         <Tarjeta
           imagen={imagen3.src}
-          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // Puedes usar un ícono o texto aquí
-          texto="LuckyThor Marca de Hidromiel"
+          logo={<img src={logo.src} alt="React Logo" className="w-12 h-12" />} // You can use an icon or text here
+          texto="LuckyThor Mead Brand"
           url="https://andreschunior.github.io/LuckyThorWebsite/HomePage/index.html"
         />
       </div>

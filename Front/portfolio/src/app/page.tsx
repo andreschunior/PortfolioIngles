@@ -40,7 +40,7 @@ export default function Home() {
             <Tarjeta
               icono={<FaReact />}
               titulo="Front End"
-              texto="Desarrollador front-end con experiencia en Next.js, React, Redux, Tailwind CSS, Bootstrap, HTML, CSS y JavaScript. Transformo ideas en interfaces interactivas y atractivas con un enfoque en la eficiencia y el diseño responsivo."
+              texto="Front-end developer with experience in Next.js, React, Redux, Tailwind CSS, Bootstrap, HTML, CSS, and JavaScript. I transform ideas into interactive and attractive interfaces with a focus on efficiency and responsive design."
               lista={[
                 "Next.js",
                 "React",
@@ -51,12 +51,12 @@ export default function Home() {
                 "CSS",
                 "JavaScript",
               ]}
-              titutloTecnologias="Tecnologias Front End"
+              titutloTecnologias="Front End Technologies"
             />
             <Tarjeta
               icono={<FaNodeJs />}
               titulo="Back End"
-              texto="Desarrollador back-end con experiencia en PostgreSQL, MongoDB, Mongoose, TypeORM, Node.js, Express, Cloudinary y AJAX. Desarrollo soluciones robustas y escalables, gestionando bases de datos, APIs y servicios en la nube con eficiencia."
+              texto="Back-end developer with experience in PostgreSQL, MongoDB, Mongoose, TypeORM, Node.js, Express, Cloudinary, and AJAX. I develop robust and scalable solutions, managing databases, APIs, and cloud services efficiently."
               lista={[
                 "PostgreSQL",
                 "MongoDB",
@@ -67,12 +67,12 @@ export default function Home() {
                 "Cloudinary",
                 "AJAX",
               ]}
-              titutloTecnologias="Tecnologias Back End"
+              titutloTecnologias="Back End Technologies"
             />
             <Tarjeta
               icono={<FaPencilRuler />}
-              titulo="Diseño Gráfico"
-              texto="Soy diseñador gráfico con habilidades en fotografía, edición de imágenes, vectorización, y diseño 2D. Transformo ideas en visuales impactantes con creatividad y precisión técnica."
+              titulo="Graphic Design"
+              texto="I am a graphic designer with skills in photography, image editing, vectorization, and 2D design. I transform ideas into impactful visuals with creativity and technical precision."
               lista={[
                 "Affinity Designer",
                 "Affinity Photo",
@@ -80,7 +80,7 @@ export default function Home() {
                 "Lightroom",
                 "Illustrator",
               ]}
-              titutloTecnologias="Herramientas de diseño"
+              titutloTecnologias="Design Tools"
             />
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
           <TarjetasdeProyectos />
           <div className="flex justify-center mt-10">
             <BotonConIcono
-              texto="Ver más en GitHub"
+              texto="See more on GitHub"
               onClick={() => window.open("https://github.com/andreschunior")}
               icono={FaGithub}
             />

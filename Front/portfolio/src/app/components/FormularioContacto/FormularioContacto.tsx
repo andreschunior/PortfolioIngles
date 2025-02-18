@@ -24,12 +24,12 @@ const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Validación de longitud de texto
+    // Text length validation
     if (formData.name.length < 2 || formData.name.length > 50) {
       Swal.fire({
         icon: "warning",
-        title: "Nombre inválido",
-        text: "El nombre debe tener entre 2 y 50 caracteres.",
+        title: "Invalid Name",
+        text: "The name must be between 2 and 50 characters.",
       });
       return;
     }
@@ -37,8 +37,8 @@ const ContactForm: React.FC = () => {
     if (!/^[\w-.]+@([\w-]+\.)+[a-zA-Z]{2,7}$/.test(formData.email)) {
       Swal.fire({
         icon: "warning",
-        title: "Correo inválido",
-        text: "Introduce un correo electrónico válido.",
+        title: "Invalid Email",
+        text: "Please enter a valid email address.",
       });
       return;
     }
@@ -46,8 +46,8 @@ const ContactForm: React.FC = () => {
     if (formData.message.length < 10 || formData.message.length > 500) {
       Swal.fire({
         icon: "warning",
-        title: "Mensaje inválido",
-        text: "El mensaje debe tener entre 10 y 500 caracteres.",
+        title: "Invalid Message",
+        text: "The message must be between 10 and 500 characters.",
       });
       return;
     }
@@ -63,16 +63,16 @@ const ContactForm: React.FC = () => {
       .then(() => {
         Swal.fire({
           icon: "success",
-          title: "Mensaje Enviado",
-          text: "Tu mensaje ha sido enviado con éxito.",
+          title: "Message Sent",
+          text: "Your message has been sent successfully.",
         });
-        setFormData({ name: "", email: "", message: "" }); // Limpia el formulario
+        setFormData({ name: "", email: "", message: "" }); // Clear the form
       })
       .catch(() => {
         Swal.fire({
           icon: "error",
           title: "Error",
-          text: "Hubo un problema al enviar el mensaje. Inténtalo de nuevo.",
+          text: "There was a problem sending the message. Please try again.",
         });
       })
       .finally(() => {
@@ -83,13 +83,13 @@ const ContactForm: React.FC = () => {
   return (
     <div className="p-4 max-w-3xl mx-auto">
       <div className="flex justify-center mb-6">
-        <h2 className="text-4xl font-bold text-gray-800">Contacto</h2>
+        <h2 className="text-4xl font-bold text-gray-800">Contact</h2>
       </div>
       <form onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Nombre
+              Name
             </label>
             <input
               type="text"
@@ -104,7 +104,7 @@ const ContactForm: React.FC = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Correo Electrónico
+              Email
             </label>
             <input
               type="email"
@@ -118,7 +118,7 @@ const ContactForm: React.FC = () => {
         </div>
         <div className="mb-4">
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Mensaje
+            Message
           </label>
           <textarea
             name="message"
@@ -137,7 +137,7 @@ const ContactForm: React.FC = () => {
             disabled={isSending}
             className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
-            {isSending ? "Enviando..." : "Enviar"}
+            {isSending ? "Sending..." : "Send"}
           </button>
         </div>
       </form>

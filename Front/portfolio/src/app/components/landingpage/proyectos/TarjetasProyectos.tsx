@@ -25,7 +25,7 @@ const Tarjeta: React.FC<TarjetaProyectosProps> = ({
                   {texto}
                 </div>
               )}
-              <Boton texto="Visitar Página" url={url} />
+              <Boton texto="Visit Page" url={url} />
             </div>
           </div>
         </div>

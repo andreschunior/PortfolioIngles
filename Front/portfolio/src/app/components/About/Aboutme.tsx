@@ -15,27 +15,27 @@ export const AboutMe: React.FC = () => {
           isMobile ? "text-2xl" : "text-4xl"
         }`}
       >
-        ¡Hola!
+        Hello!
       </h1>
       <h1
         className={`text-4xl font-bold font-roboto text-white mt-0 ${
           isMobile ? "text-2xl" : "text-4xl"
         }`}
       >
-        Soy José, encantado de conocerte
+        I am José, nice to meet you
       </h1>
       <p
         className={`text-lg font-bold font-roboto text-white mt-9 ${
           isMobile ? "w-full" : "w-1/2"
         }`}
       >
-        Desarrollador full stack de Venezuela, con experiencia en JavaScript,
-        HTML, CSS, y tecnologías como Next.js, Node.js, React, y SQL. Trabajé en
-        Neurounify en Fort Worth, Texas, donde gestioné sistemas Microsoft y
-        brindé soporte al cliente. Además, tengo habilidades en edición gráfica
-        y fotografía, lo que me permite aportar creatividad a mis proyectos. Soy
-        resiliente, confiable, y siempre busco soluciones innovadoras en el
-        desarrollo web, mi verdadera pasión.
+        Full stack developer from Venezuela, with experience in JavaScript,
+        HTML, CSS, and technologies like Next.js, Node.js, React, and SQL. I
+        worked at Neurounify in Fort Worth, Texas, where I managed Microsoft
+        systems and provided customer support. Additionally, I have skills in
+        graphic editing and photography, which allow me to bring creativity to
+        my projects. I am resilient, reliable, and always seek innovative
+        solutions in web development, my true passion.
       </p>
     </div>
   );

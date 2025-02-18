@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
         <div className="flex justify-center">
           <div className="mb-4 w-20">
             <a
-              href="/" // Cambia el enlace según tus necesidades
+              href="/" // Change the link according to your needs
             >
               <Image
                 src={logo}
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
 
         {/* Eslogan */}
         <p className="text-lg font-semibold mb-4">
-          Transformemos Ideas en Realidades.
+          Transforming Ideas into Realities.
         </p>
 
         {/* Íconos de Redes Sociales */}
@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
 
       {/* Información de Derechos de Autor */}
       <div className="text-center text-sm text-gray-500 mb-4">
-        © 2024 José Andrés Borrero. Todos los derechos reservados.
+        © 2024 José Andrés Borrero. All rights reserved.
       </div>
     </footer>
   );
